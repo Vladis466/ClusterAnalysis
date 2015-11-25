@@ -1,0 +1,12 @@
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\bin\Debug\TermProject_Predovic.exe.config
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\bin\Debug\TermProject_Predovic.exe
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\bin\Debug\TermProject_Predovic.pdb
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\bin\Debug\TermProject_Predovic.xml
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.vbprojResolveAssemblyReference.cache
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.Form1.resources
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.Resources.resources
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.vbproj.GenerateResource.Cache
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.exe
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.xml
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.pdb
+D:\Program Files(D)\VisStud2015Projects\IE411(VisualBasic)\TermProject_Predovic\obj\Debug\TermProject_Predovic.Form2.resources
