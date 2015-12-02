@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.ReturntoForm1 = New System.Windows.Forms.Button()
         Me.Attribute1TextBox = New System.Windows.Forms.TextBox()
@@ -37,21 +37,23 @@ Partial Class Form2
         Me.KmediodButton = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.SSEMLabel = New System.Windows.Forms.Label()
+        Me.SSE2Label = New System.Windows.Forms.Label()
+        Me.Medoid2ListBox = New System.Windows.Forms.ListBox()
+        Me.MedoidEndLabel = New System.Windows.Forms.Label()
+        Me.Medoid1ListBox = New System.Windows.Forms.ListBox()
         Me.medoidStartLabel = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.SSECLabel = New System.Windows.Forms.Label()
+        Me.SSE1Label = New System.Windows.Forms.Label()
+        Me.centroid2ListBox = New System.Windows.Forms.ListBox()
+        Me.centroidEndLabel = New System.Windows.Forms.Label()
         Me.centroid1ListBox = New System.Windows.Forms.ListBox()
         Me.centroidStartLabel = New System.Windows.Forms.Label()
-        Me.AccesButton = New System.Windows.Forms.Button()
+        Me.AccessButton = New System.Windows.Forms.Button()
         Me.numClusterLabel = New System.Windows.Forms.Label()
         Me.clusterAmtUpDown = New System.Windows.Forms.NumericUpDown()
-        Me.centroidEndLabel = New System.Windows.Forms.Label()
-        Me.centroid2ListBox = New System.Windows.Forms.ListBox()
         Me.InsRandButton = New System.Windows.Forms.Button()
-        Me.Medoid1ListBox = New System.Windows.Forms.ListBox()
-        Me.MedoidEndLabel = New System.Windows.Forms.Label()
-        Me.Medoid2ListBox = New System.Windows.Forms.ListBox()
-        Me.SSE1Label = New System.Windows.Forms.Label()
-        Me.SSE2Label = New System.Windows.Forms.Label()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.clusterAmtUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -156,7 +158,7 @@ Partial Class Form2
         'KmeansButton
         '
         Me.KmeansButton.Enabled = False
-        Me.KmeansButton.Location = New System.Drawing.Point(106, 163)
+        Me.KmeansButton.Location = New System.Drawing.Point(18, 163)
         Me.KmeansButton.Name = "KmeansButton"
         Me.KmeansButton.Size = New System.Drawing.Size(93, 43)
         Me.KmeansButton.TabIndex = 11
@@ -184,6 +186,7 @@ Partial Class Form2
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Panel3.Controls.Add(Me.SSEMLabel)
         Me.Panel3.Controls.Add(Me.SSE2Label)
         Me.Panel3.Controls.Add(Me.Medoid2ListBox)
         Me.Panel3.Controls.Add(Me.MedoidEndLabel)
@@ -193,6 +196,57 @@ Partial Class Form2
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(187, 258)
         Me.Panel3.TabIndex = 15
+        '
+        'SSEMLabel
+        '
+        Me.SSEMLabel.AutoSize = True
+        Me.SSEMLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SSEMLabel.Location = New System.Drawing.Point(29, 233)
+        Me.SSEMLabel.Name = "SSEMLabel"
+        Me.SSEMLabel.Size = New System.Drawing.Size(0, 17)
+        Me.SSEMLabel.TabIndex = 6
+        '
+        'SSE2Label
+        '
+        Me.SSE2Label.AutoSize = True
+        Me.SSE2Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SSE2Label.Location = New System.Drawing.Point(26, 216)
+        Me.SSE2Label.Name = "SSE2Label"
+        Me.SSE2Label.Size = New System.Drawing.Size(149, 17)
+        Me.SSE2Label.TabIndex = 5
+        Me.SSE2Label.Text = "Error Sum of Squares:"
+        '
+        'Medoid2ListBox
+        '
+        Me.Medoid2ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Medoid2ListBox.ForeColor = System.Drawing.SystemColors.Window
+        Me.Medoid2ListBox.FormattingEnabled = True
+        Me.Medoid2ListBox.ItemHeight = 16
+        Me.Medoid2ListBox.Location = New System.Drawing.Point(25, 136)
+        Me.Medoid2ListBox.Name = "Medoid2ListBox"
+        Me.Medoid2ListBox.Size = New System.Drawing.Size(126, 68)
+        Me.Medoid2ListBox.TabIndex = 6
+        '
+        'MedoidEndLabel
+        '
+        Me.MedoidEndLabel.AutoSize = True
+        Me.MedoidEndLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.MedoidEndLabel.Location = New System.Drawing.Point(23, 116)
+        Me.MedoidEndLabel.Name = "MedoidEndLabel"
+        Me.MedoidEndLabel.Size = New System.Drawing.Size(128, 17)
+        Me.MedoidEndLabel.TabIndex = 5
+        Me.MedoidEndLabel.Text = "Starting x Medoids:"
+        '
+        'Medoid1ListBox
+        '
+        Me.Medoid1ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Medoid1ListBox.ForeColor = System.Drawing.SystemColors.Window
+        Me.Medoid1ListBox.FormattingEnabled = True
+        Me.Medoid1ListBox.ItemHeight = 16
+        Me.Medoid1ListBox.Location = New System.Drawing.Point(26, 34)
+        Me.Medoid1ListBox.Name = "Medoid1ListBox"
+        Me.Medoid1ListBox.Size = New System.Drawing.Size(126, 68)
+        Me.Medoid1ListBox.TabIndex = 4
         '
         'medoidStartLabel
         '
@@ -207,6 +261,7 @@ Partial Class Form2
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Panel2.Controls.Add(Me.SSECLabel)
         Me.Panel2.Controls.Add(Me.SSE1Label)
         Me.Panel2.Controls.Add(Me.centroid2ListBox)
         Me.Panel2.Controls.Add(Me.centroidEndLabel)
@@ -216,6 +271,46 @@ Partial Class Form2
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(187, 258)
         Me.Panel2.TabIndex = 16
+        '
+        'SSECLabel
+        '
+        Me.SSECLabel.AutoSize = True
+        Me.SSECLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SSECLabel.Location = New System.Drawing.Point(22, 233)
+        Me.SSECLabel.Name = "SSECLabel"
+        Me.SSECLabel.Size = New System.Drawing.Size(0, 17)
+        Me.SSECLabel.TabIndex = 5
+        '
+        'SSE1Label
+        '
+        Me.SSE1Label.AutoSize = True
+        Me.SSE1Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SSE1Label.Location = New System.Drawing.Point(22, 216)
+        Me.SSE1Label.Name = "SSE1Label"
+        Me.SSE1Label.Size = New System.Drawing.Size(149, 17)
+        Me.SSE1Label.TabIndex = 4
+        Me.SSE1Label.Text = "Error Sum of Squares:"
+        '
+        'centroid2ListBox
+        '
+        Me.centroid2ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.centroid2ListBox.ForeColor = System.Drawing.SystemColors.Window
+        Me.centroid2ListBox.FormattingEnabled = True
+        Me.centroid2ListBox.ItemHeight = 16
+        Me.centroid2ListBox.Location = New System.Drawing.Point(22, 136)
+        Me.centroid2ListBox.Name = "centroid2ListBox"
+        Me.centroid2ListBox.Size = New System.Drawing.Size(126, 68)
+        Me.centroid2ListBox.TabIndex = 3
+        '
+        'centroidEndLabel
+        '
+        Me.centroidEndLabel.AutoSize = True
+        Me.centroidEndLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.centroidEndLabel.Location = New System.Drawing.Point(19, 116)
+        Me.centroidEndLabel.Name = "centroidEndLabel"
+        Me.centroidEndLabel.Size = New System.Drawing.Size(116, 17)
+        Me.centroidEndLabel.TabIndex = 2
+        Me.centroidEndLabel.Text = "Final x Centroids:"
         '
         'centroid1ListBox
         '
@@ -238,19 +333,19 @@ Partial Class Form2
         Me.centroidStartLabel.TabIndex = 0
         Me.centroidStartLabel.Text = "Starting  x  Centroids:"
         '
-        'AccesButton
+        'AccessButton
         '
-        Me.AccesButton.Location = New System.Drawing.Point(291, 476)
-        Me.AccesButton.Name = "AccesButton"
-        Me.AccesButton.Size = New System.Drawing.Size(107, 44)
-        Me.AccesButton.TabIndex = 17
-        Me.AccesButton.Text = "Send to DB"
-        Me.AccesButton.UseVisualStyleBackColor = True
+        Me.AccessButton.Location = New System.Drawing.Point(291, 476)
+        Me.AccessButton.Name = "AccessButton"
+        Me.AccessButton.Size = New System.Drawing.Size(107, 44)
+        Me.AccessButton.TabIndex = 17
+        Me.AccessButton.Text = "Send to DB"
+        Me.AccessButton.UseVisualStyleBackColor = True
         '
         'numClusterLabel
         '
         Me.numClusterLabel.AutoSize = True
-        Me.numClusterLabel.Location = New System.Drawing.Point(23, 163)
+        Me.numClusterLabel.Location = New System.Drawing.Point(177, 163)
         Me.numClusterLabel.Name = "numClusterLabel"
         Me.numClusterLabel.Size = New System.Drawing.Size(59, 17)
         Me.numClusterLabel.TabIndex = 18
@@ -258,34 +353,13 @@ Partial Class Form2
         '
         'clusterAmtUpDown
         '
-        Me.clusterAmtUpDown.Location = New System.Drawing.Point(26, 183)
+        Me.clusterAmtUpDown.Location = New System.Drawing.Point(180, 184)
         Me.clusterAmtUpDown.Maximum = New Decimal(New Integer() {5, 0, 0, 0})
         Me.clusterAmtUpDown.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.clusterAmtUpDown.Name = "clusterAmtUpDown"
         Me.clusterAmtUpDown.Size = New System.Drawing.Size(48, 22)
         Me.clusterAmtUpDown.TabIndex = 19
         Me.clusterAmtUpDown.Value = New Decimal(New Integer() {2, 0, 0, 0})
-        '
-        'centroidEndLabel
-        '
-        Me.centroidEndLabel.AutoSize = True
-        Me.centroidEndLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.centroidEndLabel.Location = New System.Drawing.Point(19, 116)
-        Me.centroidEndLabel.Name = "centroidEndLabel"
-        Me.centroidEndLabel.Size = New System.Drawing.Size(116, 17)
-        Me.centroidEndLabel.TabIndex = 2
-        Me.centroidEndLabel.Text = "Final x Centroids:"
-        '
-        'centroid2ListBox
-        '
-        Me.centroid2ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
-        Me.centroid2ListBox.ForeColor = System.Drawing.SystemColors.Window
-        Me.centroid2ListBox.FormattingEnabled = True
-        Me.centroid2ListBox.ItemHeight = 16
-        Me.centroid2ListBox.Location = New System.Drawing.Point(22, 136)
-        Me.centroid2ListBox.Name = "centroid2ListBox"
-        Me.centroid2ListBox.Size = New System.Drawing.Size(126, 68)
-        Me.centroid2ListBox.TabIndex = 3
         '
         'InsRandButton
         '
@@ -296,67 +370,15 @@ Partial Class Form2
         Me.InsRandButton.Text = "Generate Values"
         Me.InsRandButton.UseVisualStyleBackColor = True
         '
-        'Medoid1ListBox
-        '
-        Me.Medoid1ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
-        Me.Medoid1ListBox.ForeColor = System.Drawing.SystemColors.Window
-        Me.Medoid1ListBox.FormattingEnabled = True
-        Me.Medoid1ListBox.ItemHeight = 16
-        Me.Medoid1ListBox.Location = New System.Drawing.Point(26, 34)
-        Me.Medoid1ListBox.Name = "Medoid1ListBox"
-        Me.Medoid1ListBox.Size = New System.Drawing.Size(126, 68)
-        Me.Medoid1ListBox.TabIndex = 4
-        '
-        'MedoidEndLabel
-        '
-        Me.MedoidEndLabel.AutoSize = True
-        Me.MedoidEndLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.MedoidEndLabel.Location = New System.Drawing.Point(23, 116)
-        Me.MedoidEndLabel.Name = "MedoidEndLabel"
-        Me.MedoidEndLabel.Size = New System.Drawing.Size(128, 17)
-        Me.MedoidEndLabel.TabIndex = 5
-        Me.MedoidEndLabel.Text = "Starting x Medoids:"
-        '
-        'Medoid2ListBox
-        '
-        Me.Medoid2ListBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText
-        Me.Medoid2ListBox.ForeColor = System.Drawing.SystemColors.Window
-        Me.Medoid2ListBox.FormattingEnabled = True
-        Me.Medoid2ListBox.ItemHeight = 16
-        Me.Medoid2ListBox.Location = New System.Drawing.Point(25, 136)
-        Me.Medoid2ListBox.Name = "Medoid2ListBox"
-        Me.Medoid2ListBox.Size = New System.Drawing.Size(126, 68)
-        Me.Medoid2ListBox.TabIndex = 6
-        '
-        'SSE1Label
-        '
-        Me.SSE1Label.AutoSize = True
-        Me.SSE1Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.SSE1Label.Location = New System.Drawing.Point(22, 216)
-        Me.SSE1Label.Name = "SSE1Label"
-        Me.SSE1Label.Size = New System.Drawing.Size(113, 17)
-        Me.SSE1Label.TabIndex = 4
-        Me.SSE1Label.Text = "Sum of Squares:"
-        '
-        'SSE2Label
-        '
-        Me.SSE2Label.AutoSize = True
-        Me.SSE2Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.SSE2Label.Location = New System.Drawing.Point(26, 216)
-        Me.SSE2Label.Name = "SSE2Label"
-        Me.SSE2Label.Size = New System.Drawing.Size(113, 17)
-        Me.SSE2Label.TabIndex = 5
-        Me.SSE2Label.Text = "Sum of Squares:"
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(583, 539)
+        Me.ClientSize = New System.Drawing.Size(583, 532)
         Me.Controls.Add(Me.InsRandButton)
         Me.Controls.Add(Me.clusterAmtUpDown)
         Me.Controls.Add(Me.numClusterLabel)
-        Me.Controls.Add(Me.AccesButton)
+        Me.Controls.Add(Me.AccessButton)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.KmediodButton)
@@ -401,7 +423,7 @@ Partial Class Form2
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents AccesButton As Button
+    Friend WithEvents AccessButton As Button
     Friend WithEvents medoidStartLabel As Label
     Friend WithEvents centroidStartLabel As Label
     Friend WithEvents centroid1ListBox As ListBox
@@ -415,4 +437,6 @@ Partial Class Form2
     Friend WithEvents Medoid1ListBox As ListBox
     Friend WithEvents SSE2Label As Label
     Friend WithEvents SSE1Label As Label
+    Friend WithEvents SSEMLabel As Label
+    Friend WithEvents SSECLabel As Label
 End Class
